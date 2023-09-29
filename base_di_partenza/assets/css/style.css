@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  height: 2em;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* padding: 2em; */
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-right: 2em;
+  background-color: #ffc017;
+  border-bottom: 2px solid rgb(72, 70, 70);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+header img {
+  margin-left: 10%;
+}
+nav {
+  display: flex;
+}
+nav button {
+  background-color: black;
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border: 0;
+  border-radius: 2em;
+  font-size: 1em;
+}
+ul {
+  list-style: none;
+  font-size: 1em;
+}
+nav li {
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.dx {
+  width: 30%;
+}
+.sx {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  margin-left: 10%;
+  width: 40%;
+}
+h1 {
+  font-size: 5em;
+  font-family: "Spectral", serif;
+}
+section {
+  width: 100%;
+  display: flex;
+  background-color: #ffc017;
+  justify-content: space-between;
+  /* text-align: center; */
+}
+section p {
+  font-size: 1.5em;
+}
+section button {
+  background-color: black;
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border: 0;
+  border-radius: 2em;
+  font-size: 1.5em;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.titolo {
+  display: flex;
+  align-items: center;
+}
+.titolo img {
+  border-radius: 50%;
+  padding: 1em;
+}
+.bottom {
+  display: flex;
+  height: 30vw;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.coppia {
+  display: flex;
+  width: 30%;
+  height: 30%;
+  margin-top: 2em;
+}
+.coppia p {
+  color: grey;
+  opacity: 0.6;
+  font-size: 2em;
+  font-weight: bold;
+}
+.coppia span {
+  color: grey;
+  opacity: 0.8;
+  font-size: 1em;
+}
+.top {
+  height: 5vw;
+  display: flex;
+  align-items: center;
+}
+.top h3 {
+  text-align: left;
+  font-weight: bold;
+}
+.articolone {
+  padding: 0.5em;
+}
+aside {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.discover {
+  width: 50%;
+  height: 22vw;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 112px;
+  align-items: start;
+  justify-content: space-evenly;
+  padding: 0.5em;
+}
+.rigo {
+  display: flex;
+}
+.discover a {
+  color: #1a8917;
+  text-decoration: none;
+}
+.discover p {
+  padding: 0.5em;
+  background-color: rgb(219, 243, 243);
+  border-radius: 2em;
+  margin: 0.25em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.imm {
+  overflow: hidden;
+}
+.imm img {
+  width: 100%;
+}
+.titoletto {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.titoletto h4 {
+  font-size: 0.7em;
+}
+.titoletto img {
+  border-radius: 50%;
+  width: 8%;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.articolone {
+  width: 90%;
+  display: flex;
+  align-items: end;
+  justify-content: space-evenly;
+}
+.articoletto h3 {
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.articoletto span {
+  color: grey;
+  opacity: 0.8;
+  font-size: 0.7em;
+}
+.articoletto p {
+  color: grey;
+  opacity: 0.8;
+  font-size: 0.7em;
+}
+.lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.articoletto {
+  padding-right: 2.5em;
+}
+.spannn {
+  font-weight: bold;
+}
+
+.nav-colored {
+  background-color: #ffc017;
+}
+.nav-transparent {
+  background-color: white;
+}
+hr {
+  width: 90%;
+  opacity: 0.3;
+}
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+}
+.foot span {
+  color: grey;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  font-size: 0.9em;
+}
